@@ -2,35 +2,191 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="../css/accueil.css">
-  <link rel="shortcut icon" href="../image/logo-accueil.png" >
+  <link rel="shortcut icon" href="../image/logo-accueil.png">
+
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/pays.css">
+
+  <script type="text/javascript" src="../js/jquery-3.2.1.slim.min.js"></script>
+
+  <script type="text/javascript" src="../js/popper.min.js"></script>
+
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/util.js"></script>
+
 
   <title>Dream Travel</title>
 </head>
 <body>
-  <a href="accueil.html"><img class="logo" src="../image/DreamTravel.png" alt=""></a>
-  <nav>
-  <ul>
-    <li><a href="accueil.html">Présentation</a></li>
-    <li class="deroulant"><a href="#">Formules &ensp;</a>
-      <ul class="sous">
-        <li><a href="france.html">France</a></li>
-        <li><a href="japon.html">Japon</a></li>
-        <li><a href="etatsunis.html">Etats-Unis</a></li>
-        <li><a href="bresil.html">Brésil</a></li>
-        <li><a href="emiratsarabesunis.html">Emirats Arabes Unis</a></li>
-        <li><a href="afriquesud.html">Afrique du Sud</a></li>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="../index.html">Dream Travel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Formules
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="france.html">France</a>
+            <a class="dropdown-item" href="japon.html">Japon</a>
+            <a class="dropdown-item" href="etatsunis.html">États-Unis</a>
+            <a class="dropdown-item" href="emiratsarabesunis.html">Émirats Arbes Unis</a>
+            <a class="dropdown-item" href="afriquesud.html">Afrique du Sud</a>
+            <a class="dropdown-item" href="bresil.html">Brésil</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Mobilité
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="transports.html">Transports</a>
+            <a class="dropdown-item" href="carte.html">Carte</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="avis.html">Avis des clients <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Nous contacter</a>
+        </li>
       </ul>
-    </li>
-    <li class="deroulant"><a href="#">Mobilité &ensp;</a>
-      <ul class="sous">
-        <li><a href="transports.html">Transports</a></li>
-        <li><a href="carte.html">Carte</a></li>
-      </ul>
-    </li>
-    <li><a href="avis.html">Avis des clients</a></li>
-    <li><a href="contact.html">Nous contacter</a></li>
-  </ul>
+    </div>
   </nav>
+  <div class="container">
+    <br>
+    <div class="row">
+      <h1>Japon : Tokyo</h1>
+    </div>
+    <div class="divCarousel col-md-6">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="../image/japon/slide1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../image/japon/slide2.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../image/japon/slide3.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../image/japon/slide4.jpg" alt="First slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <br><br>
+    <div class="conteneur">
 
+      <div class="row">
+        <span class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></span>
+        <p class="col-md-10 col-xs-10 col-sm-10 col-lg-10">Tokyo, capitale du Japon, la ville la plus peuplé du monde est un mixe de 2 générations celle des temps ancestraux et celle des temps futuristes par ses différents quartier la mobilité est très adapter à tout le monde que ça soit à pied, vélo ou en métro. </p>
+      </div>
+      <div class="row">
+        <p class="soustitre col-md-12">Où dormir ? </p>
+      </div>
+      <div class="row">
+        <span class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></span>
+        <p class="col-md-10 col-xs-10 col-sm-10 col-lg-10">Nous vous proposons le First Cabin Kyōbashi est un hôtel situé à 2-7-8 Kyōbashi, Chuo-ku, Ginza, Tokyo, Japon. Constitué de plusieurs capsules de “luxe”. L’hôtel est situé à 150 mètres des transports en commun. En plein cœur de Tokyo, il offre une vue assez grandiose de la ville. L’hôtel est proche de l’aéroport de Haneda.
+        Vous pouvez effectuer une réservation sur <a href="https://www.airbnb.fr/">Airbnb</a>.</p>
+      </div>
+      <div class="row">
+        <img src="../image/japon/firstcabin.jpg" alt="">
+      </div>
+      <div class="row">
+        <span class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></span>
+        <p class="col-md-10 col-xs-10 col-sm-10 col-lg-10">Nous vous proposons le Park hotel Tokyo situé au Shodome Media Tower 1-7-1 Higashi Shimbashi. C’est un hotel situé à quelques minutes à pieds de la station Shimbashi et du quartier Ginza. Le Park Hotel Tokyo est un hôtel quatre étoiles situé à l'intérieur du gratte-ciel Shiodome Media Tower, situé dans le sud de Tokyo. Dans les étages supérieurs de la tour, l'hôtel dévoile plusieurs chambres uniques décorées comme un musée d'art.
+          Vous pouvez effectuer une réservation sur <a href="https://www.airbnb.fr/">Airbnb</a>.</p>
+      </div>
+      <div class="row">
+        <img src="../image/japon/parkhotel.jpg" alt="">
+      </div>
+      <div class="row">
+        <span class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></span>
+        <p class="col-md-10 col-xs-10 col-sm-10 col-lg-10">Nous vous proposons le 9 hours Shinjuku North situé au 169-0073 Préfecture de Tokyo,  Hyakunin Cho 1-4-15, Japon. Situé à seulement 2 minutes à pied de la gare JR Shin-Okubo, le nine hours Shinjuku-North propose des logements capsules à Tokyo. La gare de Shibuya est accessible en 10 minutes par la ligne JR Yamanote en train.
+          Vous pouvez effectuer une réservation sur <a href="https://www.airbnb.fr/">Airbnb</a>.</p>
+      </div>
+      <div class="row">
+        <img src="../image/japon/shinjuku.jpg" alt="">
+      </div>
+      <div class="row">
+        <p class="soustitre col-md-12">Où aller ?</p>
+      </div>
+      <div class="row">
+        <span class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></span>
+        <p class="col-md-10 col-xs-10 col-sm-10 col-lg-10">Le quartier Kagurazaka a une convivialité provinciale très agréable.  La rue est fermée à la circulation automobile tous les jours à l'heure du déjeuner ainsi que les dimanches et les jours fériés de midi à 20h. À mi-hauteur, on découvre l'entrée du Zenkoku-ji, le temple bouddhiste du quartier. Plus loin sur Kagurazaka-dori, le sanctuaire shinto Akagi domine la zone. Dans les ruelles adjacentes à l'avenue principale. On tombe ainsi sur diverses devantures familières, décorées selon la région de France ou la spécialité mise à l'honneur comme le Lugdunum ou la Bretagne. Kagurazaka est également l'une des six hanamachi (quartier de Geisha) de Tokyo encore en activité. </p>
+      </div>
+      <div class="row">
+        <img src="../image/japon/kagurazaka.jpg" alt="">
+      </div>
+      <div class="row">
+        <span class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></span>
+        <p class="col-md-10 col-xs-10 col-sm-10 col-lg-10">Le quartier Kagurazaka a une convivialité provinciale très agréable.  La rue est fermée à la circulation automobile tous les jours à l'heure du déjeuner ainsi que les dimanches et les jours fériés de midi à 20h. À mi-hauteur, on découvre l'entrée du Zenkoku-ji, le temple bouddhiste du quartier. Plus loin sur Kagurazaka-dori, le sanctuaire shinto Akagi domine la zone. Dans les ruelles adjacentes à l'avenue principale. On tombe ainsi sur diverses devantures familières, décorées selon la région de France ou la spécialité mise à l'honneur comme le Lugdunum ou la Bretagne. Kagurazaka est également l'une des six hanamachi (quartier de Geisha) de Tokyo encore en activité. </p>
+      </div>
+      <div class="row">
+        <img src="../image/japon/kagurazaka2.jpg" alt="">
+      </div>
+      <div class="row">
+        <span class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></span>
+        <p class="col-md-10 col-xs-10 col-sm-10 col-lg-10">Le quartier d’Asakusa( 浅草) est un quartier du nord-est de Tokyo, bordant la rivière Sumida. Le temple Senso-ji dédié à la divinité Kannon ainsi que sa rue commerçante attenante constituent son point central d'attraction. Très prisé des touristes, ce lieu de sortie reflète l'esprit populaire des Tokyoïtes. Senso-ji est le plus vieux temple bouddhiste de Tokyo, situé dans le quartier d'Asakusa au bord de la rivière Sumida. C’est des lieux touristiques préférés de la capitale pour ses couleurs flamboyantes et l'atmosphère populaire des magasins ouverts en continu près de 90 magasins de nourriture, souvenirs défilent sur 250 mètres. Les visiteurs peuvent y manger des spécialités locales.</p>
+      </div>
+      <div class="row">
+        <img src="../image/japon/asakusa.jpg" alt="">
+      </div>
+      <div class="row">
+        <span class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></span>
+        <p class="col-md-10 col-xs-10 col-sm-10 col-lg-10">Dans le domaine de la culture à Ikebukuro, il y a une cathédrale à visiter St Mary’s cathedral.  Nous vous vous proposons aussi des spectacles de sumo sport national Le quartier pour voir des Sumo à Tokyo est très connu : il s’appelle Ryogoku.  Pour faire son shopping il y a plusieurs rue pietonnes Takeshita Dori, ou, Omotesando. </p>
+      </div>
+      <div class="row">
+        <img src="../image/japon/cathedrale.jpg" alt="">
+      </div>
+      <div class="row">
+        <p class="soustitre col-md-12">Où manger ? </p>
+      </div>
+      <div class="row">
+          <span class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></span>
+          <p class="col-md-10 col-xs-10 col-sm-10 col-lg-10">L’une des spécialités du Japon, est le ramen. Si vous etes plutôt adepte du salé vous pourrez manger du ramen à Ikebukuro à la boutique  Mensobo Mutekiya. Muteki sert environ 1000 bols de ramen chaque jour. Ensuite, situé dans le centre Marunouchi Brick Square, Manten Sushi est l’un des meilleurs restaurants à sushi de Ginza. Si vous cherchez une expérience haut de gamme avec un menu « omakase » (menu avec plein de services sushis, nigiris et otsunami) d’un excellent rapport qualité-prix, On passe à présent à une petite adresse familiale beaucoup moins connue du grand public à Shibuya, mais fréquentée par pas mal de gens du secteur à Tokyo le yajima. </p>
+      </div>
+      <div class="row">
+        <img src="../image/japon/ramen.jpg" alt="">
+      </div>
+      <div class="row">
+        <span class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></span>
+        <p class="col-md-10 col-xs-10 col-sm-10 col-lg-10">Nous pouvons retrouver les cafés Hello Kitty un peu partout au Japon. Il y a celui du DiverCity, qui sert des cafés, glaces et pâtisseries à l’effigie d’Hello Kitty. Pour prendre une pause gourmande une autre street food à ne pas manquer à Tokyo, ce sont les taiyaki, ce sont des gaufres traditionnellement en forme de poisson et fourrée à la pâte d’haricot rouge ou d’autres crèmes comme par exemple de la crème anglaise ou de la crème au matcha.</p>
+      </div>
+      <div class="row">
+        <img src="../image/japon/cafehellokitty.jpg" alt="">
+        <img src="../image/japon/cafehellokitty2.jpg" alt="">
+      </div>
+      <br>
+      <div class="row">
+        <p class="soustitre col-md-12">Comment se déplacer ?</p>
+      </div>
+      <div class="row">
+        <span class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></span>
+        <p class="col-md-10 col-xs-10 col-sm-10 col-lg-10">Tout d’abord, pour aller au Japon il est important de changer sa monnaie en yuen, qui est la monnaie nationale. Pour pouvoir se déplacer, il faudra vous procurer une carte Suica ou Pasmo (carte de transport en commun rechargeable, les deux sont équivalentes). La carte Japan rail pass  permet d’utiliser gratuitement la ligne JR Narita Express (1h de trajet) mais les réservations sont obligatoires. Cependant, s’il y a des lignes JR à Tokyo, notamment la pratique ligne verte Yamanote, pour certains quartiers ça sera quand même plus pratique de vous déplacer avec d’autres compagnies de transport (et non que des trains JR). Si vous êtes plus adepte de la voiture nous vous proposons des formules à l’onglet mobilité ! </p>
+      </div>
+      <div class="row">
+        <p class="end col-md-6">Nous vous souhaitons un bon voyage avec Dream Travel !</p>
+      </div>
+    </div>
+  </div>
 </body>
