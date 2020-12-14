@@ -2,35 +2,58 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="../css/accueil.css">
   <link rel="shortcut icon" href="../image/logo-accueil.png" >
 
-  <title>Dream Travel</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/pays.css">
+
+  <script type="text/javascript" src="../js/jquery-3.2.1.slim.min.js"></script>
+
+  <script type="text/javascript" src="../js/popper.min.js"></script>
+
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/util.js"></script>
+
+  <title>Dream Travel - Contacts</title>
 </head>
 <body>
-  <a href="accueil.html"><img class="logo" src="../image/DreamTravel.png" alt=""></a>
-  <nav>
-  <ul>
-    <li><a href="accueil.html">Présentation</a></li>
-    <li class="deroulant"><a href="#">Formules &ensp;</a>
-      <ul class="sous">
-        <li><a href="france.html">France</a></li>
-        <li><a href="japon.html">Japon</a></li>
-        <li><a href="etatsunis.html">Etats-Unis</a></li>
-        <li><a href="bresil.html">Brésil</a></li>
-        <li><a href="emiratsarabesunis.html">Emirats Arabes Unis</a></li>
-        <li><a href="afriquesud.html">Afrique du Sud</a></li>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="../index.html">Dream Travel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Formules
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="france.html">France</a>
+            <a class="dropdown-item" href="japon.html">Japon</a>
+            <a class="dropdown-item" href="etatsunis.html">États-Unis</a>
+            <a class="dropdown-item" href="emiratsarabesunis.html">Émirats Arabes Unis</a>
+            <a class="dropdown-item" href="afriquesud.html">Afrique du Sud</a>
+            <a class="dropdown-item" href="bresil.html">Brésil</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Mobilité
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="transports.html">Transports</a>
+            <a class="dropdown-item" href="carte.html">Carte</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="avis.html">Avis des clients <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Nous contacter</a>
+        </li>
       </ul>
-    </li>
-    <li class="deroulant"><a href="#">Mobilité &ensp;</a>
-      <ul class="sous">
-        <li><a href="transports.html">Transports</a></li>
-        <li><a href="carte.html">Carte</a></li>
-      </ul>
-    </li>
-    <li><a href="avis.html">Avis des clients</a></li>
-    <li><a href="contact.html">Nous contacter</a></li>
-  </ul>
+    </div>
   </nav>
 
 </body>
