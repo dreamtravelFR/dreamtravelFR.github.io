@@ -17,9 +17,9 @@ body{
     margin-left: 3%;
     margin-right: 3%;
     margin-top : 6%;
-    background-color: #e9fffc;
+    background-color: #2e2e36;
+    color:white;
     border-radius :30px;
-    border : solid black 2px;
 }
 
 .quisommesnous p, .quisommesnous h1{
