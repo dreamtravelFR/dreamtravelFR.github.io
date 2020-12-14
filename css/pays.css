@@ -19,16 +19,14 @@ body{
   background-position:right bottom;
 }
 
-.conteneur{
-  background-color : #e9fffc;
+.container{
+  background-color : rgba(46,46,54,0.9);
+  color:white;
   font-size:100%;
-  margin : 0 6% 0;
   font-family:Nunito;
   border-radius: 20px;
   text-align: justify;
-  margin-top:-3%;
 }
-
 
 .soustitre{
   font-style: italic;
